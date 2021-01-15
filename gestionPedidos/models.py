@@ -11,7 +11,7 @@ class Clientes (models.Model):
 
 class Articulos (models.Model):
     nombre=models.CharField(max_length=35)
-    seccion=models.CharField(max_length=38)
+    seccion=models.CharField(max_length=35)
     precio=models.IntegerField()
 
     
